@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "ef50c8ce-4314-4d97-8b57-f1353883a526",
+		"name": "TestAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29841284"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"suganya.rajamaniq@gmail.com\",\r\n    \"password\": \"universe@1\"\r\n}    ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/register/qa",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"register",
+						"qa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TrRegister",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"suganya.rajamaniq@gmail.com\",\r\n    \"password\": \"universe@1\"\r\n}    ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/register/reg",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"register",
+						"reg"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
